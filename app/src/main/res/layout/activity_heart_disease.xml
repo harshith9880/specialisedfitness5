@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7BF7A"
+    android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="251dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/heart_disease_information"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="208dp"
+        android:layout_height="257dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStepTracker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201"
+        app:srcCompat="@drawable/test1233" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="334dp"
+        android:layout_height="41dp"
+        android:text="         CLICK BELOW TO START"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonStepTracker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.167" />
+
+    <Button
+        android:id="@+id/buttonStepTracker"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:background="#78FFFFFF"
+        android:text="@string/go_to_step_tracker"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.608"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

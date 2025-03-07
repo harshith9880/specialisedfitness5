@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonLowerBackPain" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="introText" type="id" />
+    <item name="description" type="id" />
+    <item name="questions" type="id" />
+    <item name="workoutText" type="id" />
+    <item name="startTracking" type="id" />
+</resources>
